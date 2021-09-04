@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), Elite_B55)
+ifeq ($(TARGET_DEVICE), b55)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

@@ -14,14 +14,14 @@ $ mkdir twrp ; cd twrp
 $ repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
 
 # Clone this repo
-$ git clone https://github.com/windowzytch/recovery_device_sky_devices_Elite_B55 -b omni-10.0 device/sky_devices/Elite_B55
+$ git clone https://github.com/windowzytch/recovery_device_sky_b55 -b omni-10.0 device/sky/b55
 
 # Sync
 $ repo sync
 
 # Make some stuffs and build it
 $ . build/envsetup.sh
-$ lunch omni_Elite_B55-eng
+$ lunch omni_b55-eng
 $ make recoveryimage
 ```
 

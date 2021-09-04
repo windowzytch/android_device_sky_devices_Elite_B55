@@ -16,5 +16,4 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/sky_devices/Elite_B55
-
+LOCAL_PATH := device/sky/b55

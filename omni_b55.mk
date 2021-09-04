@@ -22,16 +22,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from Elite_B55 device
-$(call inherit-product, device/sky_devices/Elite_B55/device.mk)
+$(call inherit-product, device/sky/b55/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Elite_B55
-PRODUCT_NAME := omni_Elite_B55
-PRODUCT_BRAND := Sky_Devices
-PRODUCT_MODEL := Elite_B55
-PRODUCT_MANUFACTURER := sky_devices
-PRODUCT_RELEASE_NAME := Sky_Devices Elite_B55
+PRODUCT_DEVICE := b55
+PRODUCT_NAME := omni_b55
+PRODUCT_BRAND := Sky
+PRODUCT_MODEL := Elite B55
+PRODUCT_MANUFACTURER := sky
+PRODUCT_RELEASE_NAME := Sky Elite B55

@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_Elite_B55-userdebug
-add_lunch_combo omni_Elite_B55-eng
+add_lunch_combo omni_b55-userdebug
+add_lunch_combo omni_b55-eng

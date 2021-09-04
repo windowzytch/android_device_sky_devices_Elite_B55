@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_Elite_B55.mk
+     $(LOCAL_DIR)/omni_b55.mk

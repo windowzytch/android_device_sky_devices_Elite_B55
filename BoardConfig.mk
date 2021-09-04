@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/sky_devices/Elite_B55
+DEVICE_PATH := device/sky/b55
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Elite_B55
+TARGET_OTA_ASSERT_DEVICE := Elite_B55,b55
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -60,8 +60,12 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := zImage
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/sky_devices/Elite_B55
+TARGET_KERNEL_SOURCE := kernel/sky/b55
 TARGET_KERNEL_CONFIG := Elite_B55_defconfig
+
+# Logcat
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6737m
